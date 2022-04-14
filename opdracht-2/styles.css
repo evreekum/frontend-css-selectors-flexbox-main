@@ -1,0 +1,83 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+* {
+    box-sizing: border-box;
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+/*body {*/
+/*    width: 1200px;*/
+/*}*/
+
+/*___Opdracht 2.1___*/
+.one {
+    color: white;
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/*___Opdracht 2.2___*/
+/*Reusable*/
+.two {
+    display: flex;
+    /*__Default settings flexbox__:*/
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*___Opdracht 2.3___*/
+/*Reusable*/
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list {
+    display: flex;
+    list-style-type: none;
+    gap: 5em;
+}
+
+
+/*___Opdracht 2.4___*/
+.four {
+    display: flex;
+    justify-content: center;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#username,
+#password {
+    /*align-self: center;*/
+    width: 25ch;
+}
+
+
+/*___Opdracht 2.5___*/
+.five {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.item1 {
+    flex-shrink: 0;
+}
+
